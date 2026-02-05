@@ -79,6 +79,9 @@ export function Footer() {
                             <li><Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</Link></li>
                             <li><Link href="/disclaimer" className="text-muted-foreground hover:text-primary transition-colors">Affiliate Disclaimer</Link></li>
                             <li><Link href="/cookies" className="text-muted-foreground hover:text-primary transition-colors">Cookie Policy</Link></li>
+                            <li><Link href="/security" className="text-muted-foreground hover:text-primary transition-colors">Security Policy</Link></li>
+                            <li><Link href="/accessibility" className="text-muted-foreground hover:text-primary transition-colors">Accessibility</Link></li>
+                            <li><Link href="/dmca" className="text-muted-foreground hover:text-primary transition-colors">DMCA Policy</Link></li>
                         </ul>
                     </div>
                 </div>
