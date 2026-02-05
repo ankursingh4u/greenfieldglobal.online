@@ -1,9 +1,17 @@
 name: Auto Generate AI Tool Review
 
+# DISABLED - Enable after adding GEMINI_API_KEY secret
+# on:
+#   schedule:
+#     - cron: "30 20 * * *" # every day at 5 AM UTC
+#   workflow_dispatch:
+
 on:
-  # schedule:
-  #   - cron: "30 20 * * *" # every day at 5 AM UTC
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type CONFIRM to run (requires GEMINI_API_KEY secret)'
+        required: true
 
 permissions:
   contents: write
